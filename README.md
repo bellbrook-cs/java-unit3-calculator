@@ -1,10 +1,78 @@
-# Template Assignment
+# Calculator
 
 ## Problem Statement
 
+Produce a new calculator program by modifying the provided code. Modify the code to use the Strings "Add", "Subtract", "Multiply", and "Divide" instead of `char` variables.
+
 ## Input Description
 
+The user will first enter one of the following options, without regard for capitilazation:
+
+1. `add`
+2. `subtract`
+3. `multiply`
+4. `divide`
+
+After entering the desired operation, the user will enter two operands on two different lines. These will both be doubles.
+
 ## Sample Input/Output
+
+### Sample Run 1
+
+```
+Make your arithmetic selection from the choices below:
+
+ 1. Add
+ 2. Subtract
+ 3. Multiply
+ 4. Divide
+
+Your choice? divide
+ 
+Enter your first operand. 100.0
+
+Enter your second operand. 25.0
+
+100.0 divided by 25.0 = 4.0
+```
+
+### Sample Run 2
+
+```
+Make your arithmetic selection from the choices below:
+
+ 1. Add
+ 2. Subtract
+ 3. Multiply
+ 4. Divide
+
+Your choice? MuLtIply
+ 
+Enter your first operand. 2.0
+
+Enter your second operand. 4.5
+
+2.0 divided by 4.5 = 9.0
+```
+
+### Sample Run 3
+
+```
+Make your arithmetic selection from the choices below:
+
+ 1. Add
+ 2. Subtract
+ 3. Multiply
+ 4. Divide
+
+Your choice? dassdaafds
+ 
+Enter your first operand. 100.0
+
+Enter your second operand. 25.0
+
+Hey dummy, enter only a Add, Subtract, Multiply, or Divide!
+```
 
 ## Submission
 
